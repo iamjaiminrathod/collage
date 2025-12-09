@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>NavGujarat BCA College | Sector 28, Gandhinagar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="img/collage-logo.jpg" alt="College Logo" class="logo-img">
+            <div class="logo-text">
+                <span class="main-name">NAVGUJARAT</span>
+                <span class="sub-name">BCA COLLEGE</span>
+            </div>
+        </a>
+        <div class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+        <ul class="nav-links">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#curriculum" onclick="toggleMenu()">Syllabus</a></li>
+            <li><a href="#contact" class="btn-apply" onclick="toggleMenu()">Apply Now</a></li>
+        </ul>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="badge"><i class="fas fa-certificate"></i> Affiliated with Gujarat University</span>
+            <h1>Shape Your Future in <br><span style="background: linear-gradient(to right, #60a5fa, #2dd4bf); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Sector 28, Gandhinagar.</span></h1>
+            <p style="font-size: 1.1rem; font-weight: 500;">
+                <i class="fas fa-check-circle" style="color:#2dd4bf"></i>  Recognized by Govt. of Gujarat &nbsp; | &nbsp; 
+                <i class="fas fa-check-circle" style="color:#2dd4bf"></i> NEP 2020 Compliant
+            </p>
+            <a href="#contact" class="cta-btn">Start Your Journey</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="section-header">
+            <h2>Campus Facilities</h2>
+            <p>Swipe to explore <i class="fas fa-arrow-right" style="font-size:0.8rem;"></i></p>
+        </div>
+        <div class="scroll-container">
+            <div class="card">
+                <div class="icon-box"><i class="fas fa-laptop-code"></i></div>
+                <h3>Advanced Coding Labs</h3>
+                <p style="color:var(--gray); margin-top:10px; font-size:0.9rem;">Modern labs with i7 processors. One student, one PC policy for effective learning.</p>
+            </div>
+            <div class="card">
+                <div class="icon-box"><i class="fas fa-chalkboard-teacher"></i></div>
+                <h3>Expert Faculties</h3>
+                <p style="color:var(--gray); margin-top:10px; font-size:0.9rem;">Highly qualified professors with industry experience to guide your career.</p>
+            </div>
+            <div class="card">
+                <div class="icon-box"><i class="fas fa-building"></i></div>
+                <h3>Sector 28 Campus</h3>
+                <p style="color:var(--gray); margin-top:10px; font-size:0.9rem;">Located in the greenest part of Gandhinagar. Peaceful environment for studies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-img">
+            <img src="img/collage.jpg" alt="College Campus">
+        </div>
+        <div class="about-content">
+            <br>
+            <span style="color: var(--primary); font-weight: 700; letter-spacing: 1px;">ABOUT NAVGUJARAT</span>
+            <h2 style="font-size: clamp(1.8rem, 4vw, 2.5rem); margin: 10px 0; color:var(--dark);">Affiliated with Gujarat University</h2>
+            <p style="color: var(--gray); line-height: 1.7;">
+                <strong>NavGujarat BCA College (Sector 28)</strong> is a premier institute offering degrees directly awarded by <strong>Gujarat University</strong>. 
+                <br><br>
+                We have adopted the new <strong>4-Year NEP Curriculum</strong>, allowing students to gain an Honors degree with specialization in AI, Data Science, and Software Development.
+            </p>
+            <br>
+            <div style="display:flex; gap:15px; flex-wrap:wrap;">
+                <span style="background:#e0f2fe; color:#0284c7; padding:5px 15px; border-radius:20px; font-size:0.85rem; font-weight:600;">#GujaratUniversity</span>
+                <span style="background:#f0fdf4; color:#16a34a; padding:5px 15px; border-radius:20px; font-size:0.85rem; font-weight:600;">#GovernmentRecognized</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="stats-grid">
+        <div class="stat-item"><h3>15+</h3><p>Years of Legacy</p></div>
+        <div class="stat-item"><h3>2500+</h3><p>Alumni Network</p></div>
+        <div class="stat-item"><h3>4 Years</h3><p>Honors Program</p></div>
+    </div>
+
+    <section id="curriculum" style="background: #f8fafc;">
+        <div class="section-header">
+            <h2>4-Year Roadmap (NEP)</h2>
+            <p>Complete journey from Basics to Honors.</p>
+        </div>
+        <div class="scroll-container">
+            <div class="card">
+                <h3 style="color:var(--primary); margin-bottom:15px;">Year 1: Foundation</h3>
+                <ul class="topics-list">
+                    <li>Programming in C</li>
+                    <li>HTML, CSS & Web Basics</li>
+                    <li>Basic Mathematics</li>
+                    <li>Communication Skills</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3 style="color:var(--primary); margin-bottom:15px;">Year 2: Core</h3>
+                <ul class="topics-list">
+                    <li>Object Oriented Prog (C++)</li>
+                    <li>Database (SQL/Oracle)</li>
+                    <li>Data Structures (DSA)</li>
+                    <li>Software Engineering</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3 style="color:var(--primary); margin-bottom:15px;">Year 3: Advanced</h3>
+                <ul class="topics-list">
+                    <li>Java Programming</li>
+                    <li>Python & AI Basics</li>
+                    <li>Web Development (PHP)</li>
+                    <li>Android App Basics</li>
+                </ul>
+            </div>
+            <div class="card" style="border: 2px solid var(--accent);">
+                <h3 style="color:var(--accent); margin-bottom:15px;">Year 4: Honors</h3>
+                <ul class="topics-list">
+                    <li>Research Methodology</li>
+                    <li>Machine Learning / Cloud</li>
+                    <li>6-Month Internship</li>
+                    <li><strong>Honors Degree Project</strong></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="reveal">
+        <div class="section-header"><h2>Common Questions</h2></div>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <div class="faq-item">
+                <div class="faq-question">Where is the college located? <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer">We are located in the heart of Gandhinagar, Gujarat. Easily accessible by public transport.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Is Maths compulsory for BCA? <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer">No, students from Commerce, Arts, or Science streams can apply.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Do you have a hostel? <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer">We have tie-ups with several PG and Hostels nearby in Sector 28 and 11.</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="note-section">
+        <div class="note-icon"><i class="fas fa-bell"></i></div>
+        <div class="note-content">
+            <h4>Admissions Closing Soon!</h4>
+            <p>Applications for the 2024-25 Batch (GU Affiliated) are filling fast. Visit our Sector 28 Campus today.</p>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="footer-wrapper">
+            <div class="footer-left">
+                <div class="footer-brand">
+                    <h2>NAVGUJARAT</h2>
+                    <p>Empowering students in Gandhinagar. Affiliated with Gujarat University.</p>
+                    <div class="social-row">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-row">
+                    <div class="footer-links-col">
+                        <h4>Explore</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#curriculum">Syllabus</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-col">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="#">+91 98765 43210</a></li>
+                            <li><a href="#">info@navgujarat.edu</a></li>
+                            <li><a href="#">Sector 28, Gandhinagar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-map-card">
+                <div class="map-frame">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14665.48006325565!2d72.636868!3d23.230058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2b93226759c9%3A0x64e83c26758509c1!2sNavgujarat%20College%20of%20Computer%20Applications!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <a href="https://www.google.com/maps/place/411,+Navgujarat+Law+College,+2,+G+Rd,+Behind+Dutt+Mandir,+Mehganinagar,+Sector+28,+Gandhinagar,+Gujarat+382027/data=!4m2!3m1!1s0x395c2b8450bf9849:0x17ba383409ed86de?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjEyMi4xMDMYACCs3wEqLSw5NDIxNjQwNyw0NzA3NTkxNSw5NDIwNzUwNiw0NzA4NzExOCw0NzA4NDM5M0ICSU4%3D" target="_blank" class="map-btn">
+                    <i class="fas fa-location-arrow"></i> Open Directions
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2024 NavGujarat BCA College. All rights reserved.</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
